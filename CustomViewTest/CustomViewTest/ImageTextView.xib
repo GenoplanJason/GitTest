@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageTextView" customModule="CustomViewTest" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="Mu3-qB-MUW" id="nsA-An-Oel"/>
+                <outlet property="label" destination="x2O-as-af2" id="JKn-B0-cwc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mu3-qB-MUW">
+                    <rect key="frame" x="8" y="5" width="304" height="27"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2O-as-af2">
+                    <rect key="frame" x="8" y="42" width="304" height="25"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Mu3-qB-MUW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="9ll-TI-zSa"/>
+                <constraint firstItem="x2O-as-af2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="JSq-gy-NUH"/>
+                <constraint firstAttribute="bottom" secondItem="x2O-as-af2" secondAttribute="bottom" constant="10" id="LpB-4R-N9A"/>
+                <constraint firstAttribute="trailing" secondItem="Mu3-qB-MUW" secondAttribute="trailing" constant="8" id="cUr-X4-0Em"/>
+                <constraint firstAttribute="trailing" secondItem="x2O-as-af2" secondAttribute="trailing" constant="8" id="hAC-NN-W10"/>
+                <constraint firstItem="Mu3-qB-MUW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="iXP-Lt-QEV"/>
+                <constraint firstItem="x2O-as-af2" firstAttribute="top" secondItem="Mu3-qB-MUW" secondAttribute="bottom" constant="10" id="mEY-H5-SKg"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="294" y="338.5"/>
+        </view>
+    </objects>
+</document>
